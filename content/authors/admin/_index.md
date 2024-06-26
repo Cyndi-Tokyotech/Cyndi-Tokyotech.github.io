@@ -1,17 +1,17 @@
----
+----
 # Display name
-title: 吳健雄
+title: 陳 穎 (Cyndi)
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Chen Ying チェン・イン
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Ying
+last_name: Chen
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 🎵
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,92 +20,66 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Ph. D. Candidate
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: Inoue Laboratory - Tokyo Institute of Technology
+    url: http://www.iee.e.titech.ac.jp/~inouelab/index.html
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'chen.y.bh@m.titech.ac.jp'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/Cyndi-Tokyotech
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/ying-chen-31650a237/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+    url: https://scholar.google.com/citations?user=q558MO8AAAAJ&hl=en
   - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://orcid.org/0009-0007-2993-3145
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Finance -> Uncertainty/ Asset Pricing/ Behavioral Finance/ Financial Text-Mining
+  - Machine Learning -> Causal Machine Learning/ Financial Knowledge Graph/ Machine Learning Instrumental Variables(IV)
+  - Management Science and Engineering -> Corporate Social Responsibility/ Managerial Cognitive Biases
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+  - area: Ph.D. Candidate of Finance
+    institution: Tokyo Institute of Technology
+    date_start: 2022-09-30
+    date_end: 2025-09-30
+    paper: 
+      [1] Ying Chen, Ziwei Xu, Ryutaro Ichise. Visualizing Instrumental Variables and Enhancing Long Text Classification with a Financial Causal Relationship Knowledge Graph, Working Paper, 2024.
+      [2] Ying Chen, Yosuke Kimura, Kotaro Inoue. Truth Behind the Stakeholder Value:Commitment or Convenience? Working Paper, 2024.
+      [3] Ying Chen, Yosuke Kimura, Kotaro Inoue. How Does Managerial Perception of Uncertainty Affect Corporate Investment:A Text Mining Approach, Pacific-Basin Finance Journal Special Issue Conference on “VSI:AI in Corporate Finance”, December 2023.
+      [4] Ying Chen, Yosuke Kimura, Kotaro Inoue. Text Based Categorization of Governance Styles of Firms and The Validity:Evidence from MD&A of Japanese Firms, The 35th Asian Finance Association Annual Conference, Ho Chi Minh City, June 2023.
+      [5] Ying Chen, Yosuke Kimura, Kotaro Inoue. Determinants and Effects of R&D Narrative Disclosure:An Empirical Study, 46th Japan Finance Association Annual Meeting, Tokyo Keizai University, Sept. 2022.
     button:
-      text: 'Read Thesis'
+      text: 'Reading Paper'
       url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
+  - area: MEng Industrial Engineering and Economics
+    institution: Tokyo Institute of Technology
+    date_start: 2020-09-28
+    date_end: 2022-09-30
+  - area: BSc Management
+    institution: Northwest A&F University
+    date_start: 2019-07-01
+    date_end: 2015-09-01
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
+  - position: Financial Analyst
+    company_name: Industrial Bank Co., Ltd.
+    department: Investment Banking Division
+    period: 2019-2020
     summary: |2-
       Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Provide guidance on corporate governance and compliance.
+      - Prepare IPO documentation and valuing shares.
+      - Conduct financial analysis and market research to price IPO shares.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -128,59 +102,44 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
+      - name: Bel canto
         description: ''
         percent: 100
-        icon: cat
-      - name: Photography
+        icon: 🎤️
+      - name: Japanese mahjong
+        description: 'I am waiting for 国士無双'
+        percent: 100
+        icon: 🀄️
+      - name: Trading
         description: ''
-        percent: 80
-        icon: camera
+        percent: 100
+        icon: 📈
 
 languages:
-  - name: English
-    percent: 100
   - name: Chinese
+    percent: 100
+  - name: English
+    percent: 90
+  - name: Japanese
     percent: 75
-  - name: Portuguese
-    percent: 25
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
+  - title: E×S Challenge
+    url: https://www.titech.ac.jp/news/2023/065771
+    date: '2023-01-31'
+    awarder: Micron LAUNCH Award
+    role: Group Leader
+    icon: 🏆
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      Our group developed an innovative product called "MetaLAB," which combines the concept of the metaverse with VR technology to enable STEM (Science, Technology, Engineering, Mathematics) students to immerse themselves in online experiments. This product allows students to conduct experiments in a virtual reality environment, providing them with a realistic experimental experience from home. Our group received the "Micron LAUNCH Award," which honors female leadership and promotes projects that drive technological innovation. Our "MetaLAB" aims to open new possibilities in STEM education and inspire more students to develop an interest in science and technology.
 ---
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Ying Chen is a Ph.D. student at K. Inoue Laboratory in Tokyo Institute of Technology, specializes in corporate finance, machine learning, information disclosure, and asset pricing. She is currently researching the application of Large Language Models (LLMs) in finance. Ying actively presents research at both Japanese and International finance conferences, including the Japan Finance Association Annual Conference (2022), Asian Finance Association Annual Conference (2023) and PBFJ Special Issue Conference (2023). Notable presentations include studies on R&D narrative disclosure, governance style identification with ML, and the impact of managerial perception uncertainty impact on corporate investment.
+
+
